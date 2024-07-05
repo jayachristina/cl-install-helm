@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # TODO: Move this hardcoded value out of the script
-receiver="thanos-receive-router-monitoring.apps.rh-cl-us-east.vtdv.p1.openshiftapps.com"
+receiver="thanos-receive-router-monitoring.apps.rhcl.sandbox940.opentlc.com"
 
 echo "receiver url ${receiver}" 1>&2
 set -x
